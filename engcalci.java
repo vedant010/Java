@@ -26,6 +26,9 @@ return num1 % num2;
 public static double power (double num1, double num2){
 return Math.pow(num1, num2);
 }
+public static double calculatePower(double base, double exponent){
+return Math.pow(base, exponent);
+}
 public static int factorial (int n){
 if(n >= 0){
 int fact = 1;
