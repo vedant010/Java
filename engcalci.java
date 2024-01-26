@@ -1,4 +1,9 @@
+import java.lang.Math;
 public class Calculator {
+  
+public static double calculateLog(double num1){
+return Math.log(num1);
+}
 public static double add(double num1, double num2){
 return num1 + num2;
 }
@@ -12,7 +17,7 @@ public static double divide(double num1, douuble num2){
 if (num2 != 0){
 return num1 / num2;
 }else{
-reutrn DOuble.NaN;
+return double.NaN;
 }
 }
 public static double modulus(double num1 , double num2){
