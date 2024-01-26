@@ -37,7 +37,7 @@ return fact;
 return -1;
 }
 }
-public static double squareRoot(double num){
+public static double squareRoot (double num){
 return Math.sqrt(num);
 }
 }
