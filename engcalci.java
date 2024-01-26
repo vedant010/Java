@@ -23,6 +23,13 @@ return double.NaN;
 public static double modulus(double num1 , double num2){
 return num1 % num2;
 }
+public static double[] calculateTrigonometricRatios(double degrees){
+  double angle = Math.toRadians(degrees);
+  double sinvalue = Math.sin(angle);
+  double cosValue = Math.cos(angle);
+  double tanValue = Math.tan(angle);
+  return new double[]{sinValue, cosValue, tanValue};
+}
 public static double power (double num1, double num2){
 return Math.pow(num1, num2);
 }
